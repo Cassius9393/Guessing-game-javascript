@@ -1,0 +1,93 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-image: url(blue3d.jpg);
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+h1 {
+  font-family: "Stick No Bills", sans-serif;
+  background-color: blue;
+  border-color: lightblue;
+  color: lightblue;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-left: 6vh;
+  border-width: 30px;
+  border-color: blue;
+  display: flex;
+  background-color: blue;
+}
+
+p {
+  color: aliceblue;
+}
+
+.form {
+  color: aliceblue;
+}
+
+.guessSubmit {
+  background-color: red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 5px;
+  color: white;
+  border-color: white;
+}
+.guessSubmit:hover {
+  transform: scale(1.5);
+}
+
+.flex {
+  display: flex;
+}
+.flex .reset {
+  background-color: #5ae44e;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 5px;
+  color: white;
+  border-color: white;
+}
+.flex .reset:hover {
+  transform: scale(1.5);
+}
+.flex .quit {
+  background-color: #572bbd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 5px;
+  color: white;
+  border-color: white;
+  padding-left: 0%;
+}
+.flex .quit:hover {
+  transform: scale(1.5);
+}
+.flex .exit {
+  background-color: #e4b533;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-width: 5px;
+  color: white;
+  border-color: white;
+  padding-left: 0%;
+}
+.flex .exit:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=style.css.map */
